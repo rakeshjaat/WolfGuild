@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+.row {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    font-weight: 700 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #a9a9a9;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.accordion-button {
+    padding: 33px;
+    background-color: #a9a9a9;
+}
+
+.accordion-item {
+    padding: 5px 2px;
+    border-radius: 7px;
+    border: 2px solid gray !important;
+}
+
+.accordion-body {
+    padding: 2rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/png/image\ \(2\).png);
+    transform: rotate(0deg);
+}
+
+.accordion-button::after {
+    background-image: url(../images/png/image\ \(2\).png);
+    transform: rotate(180deg);
+
+}
+
+.goat {
+    right: 0;
+    top: -26px;
+}
+
+.ship {
+    top: -26px;
+    left: 0;
+}
+
+.green-circle-goat,
+.wolf-lore,
+.hero-section,
+.faqs,
+.footer {
+    border-top: 1px solid white;
+}
+
+.container-modified {
+    max-width: 96% !important;
+    margin: auto;
+}
+
+@media (min-width:1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:992px) {
+    .accordion-body {
+        padding: 2rem 5rem 2rem 2rem;
+    }
+}
+
+@media (max-width:1129.98px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991.98px) {
+
+    .ship img,
+    .goat img {
+        width: 66px;
+    }
+}
+
+@media (max-width:767.98px) {
+
+    .ship img,
+    .goat img {
+        display: none;
+    }
+
+    .accordion-body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .icons-div img {
+        width: 75px !important;
+    }
+}
+
+@media (max-width:575.98px) {
+    .icons-div img {
+        width: 60px !important;
+    }
+}
