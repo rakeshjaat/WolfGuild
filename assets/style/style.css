@@ -24,6 +24,8 @@ button {
     font-weight: 700 !important;
 }
 
+/* ==================== FAQS  ==================== */
+
 .accordion-button:focus {
     box-shadow: none;
     border: none;
@@ -62,6 +64,8 @@ button {
 
 }
 
+
+/* ==================== GREEN-CIRCLE-GOAT  ==================== */
 .goat {
     right: 0;
     top: -26px;
@@ -85,6 +89,8 @@ button {
     margin: auto;
 }
 
+
+/* ==================== MEDIA QUERIES  ==================== */
 @media (min-width:1440px) {
     .container {
         max-width: 1140px;
